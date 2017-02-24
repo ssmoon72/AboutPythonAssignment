@@ -7,7 +7,8 @@ body{
   width: 970px;
 }
 .top{
-  background-color: #3a5aa2;
+  background-color: #2d4375;
+  box-shadow: 2px 2px 1px #000;
 }
 
 .top img{
@@ -55,4 +56,106 @@ body{
 
 .textsize a{
   color: #b5b313
+}
+.navbar {
+  background-color: #3480be;
+  box-shadow: 2px 2px 1px #000;
+  display: inline-block;
+  margin: 0px 0px 15px 135px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.navbar a {
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.25em;
+}
+.linkleft {
+  margin: 0px 0px 0px 125px;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.linkleft li {
+  color: #b5b313;
+  list-style-type: none;
+  margin: 10px;
+}
+.linkleft a {
+  color: white;
+  font-family: sans-serif;
+}
+.pythonInfo{
+  width: 525px;
+  display: inline-block;
+  margin-left: 10px;
+  text-align: center;
+  vertical-align: top;
+}
+.pythonInfo p {
+  font-family: sans-serif;
+  font-size: .75em;
+  color: white;
+}
+.pythonInfo .quote {
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  color: #b5b313;
+  font-style: italic;
+}
+.pythonInfo .zen{
+  font-family: sans-serif;
+  color: white;
+  margin: 10px;
+  font-size: .95em;
+}
+.infoBox {
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 15px;
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: .75em;
+  border-top: 5px solid #5a8af4;
+}
+.infoBox ul {
+  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+  margin: 5px;
+  list-style-type: square;
+}
+.infoBox li {
+  margin: 5px;
+}
+.infoBox a {
+  text-decoration: none;
+}
+.infoBox h3{
+  margin-bottom: 5px;
+}
+.bottom {
+  background-color: #2d4375;
+  box-shadow: 2px 2px 1px #000;
+  padding: 30px 30px 0px 30px;
+  text-align: center;
+  font-family: sans-serif;
+
+}
+.bottom a{
+  text-decoration: none;
+  color: #4e9adf;
+  margin: 50px 30px 0px 30px;
+  font-size: 1.1em;
+}
+.bottom p{
+  margin-top: 10px;
+  font-size: .5em;
+  color: #4e9adf;
 }
